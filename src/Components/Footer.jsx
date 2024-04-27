@@ -5,8 +5,8 @@ import { useTheme } from "../Context/ThemeContext";
 import { Book, GitHub, LinkedIn } from "@mui/icons-material";
 
 function Footer() {
-  const gitHubRepoLink = "https://github.com/asdeiva/type-speed-tester-react";
-  const linkedInLink = "https://www.linkedin.com/in/deiva-sivam/";
+  const gitHubRepoLink = "https://github.com/kalki39/type-speed-tester";
+  const linkedInLink = "https://www.linkedin.com/in/kalki39/";
   const buyMeCoffeLink = 'https://www.buymeacoffee.com/asdeiva';
   const { theme, setTheme } = useTheme();
   const handleChange = (e) => {
@@ -24,9 +24,6 @@ function Footer() {
         </a>
         <a href={linkedInLink} className="link" target="_blank" rel="noopener noreferrer">
           <LinkedIn fontSize="large" />
-        </a>
-        <a href={buyMeCoffeLink} className="link" target="_blank" rel="noopener noreferrer">
-          <Book fontSize="large" />
         </a>
       </div>
       <div className="footer-right">
